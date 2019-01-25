@@ -8,12 +8,12 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: blue;
+    color: lightblue;
 }
 
 h1 {
     font-size: 2rem;
-    color: orange;
+    color: yellow;
 }
 
 h2 {
