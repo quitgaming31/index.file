@@ -4,7 +4,7 @@ body {
 
 header {
 	margin: 10px auto;
-	background-color: rgb(109, 141, 201);;
+    background-color: rgb(109, 141, 201);
 	border: 1px solid #bbb;
 	box-shadow: 0 0 30px #777;
 	text-align: center;
@@ -24,8 +24,24 @@ div.title {
 h1 {
     margin: 5px;
 }
+nav {
+    background-color: rgba(220, 121, 28, 1);
+}
 nav ul li {
     list-style-type: none;
-    background-color: orange;
     padding: 10px;
+    color: white;
+    font-size: 2em;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li:hover {
+background-color: rgb(109, 141, 201);
+}
+nav ul li a:link {
+color: white;
+}
+nav ul li a:visited {
+color: white;
 }
